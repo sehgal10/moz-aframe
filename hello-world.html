@@ -9,7 +9,9 @@
   <body>
     <a-scene>
     
-      <a-box position="0 0 0" color="white" width="3" height="5" depth="5" rotation="0 45 0" scale="1.5 1 0.6" src="logo.jpeg"></a-box>
+      <a-box position="0 0 0" color="white" width="3" height="5" depth="5" rotation="0 45 0" scale="1.5 1 0.6" src="logo.jpeg">
+        <a-animation attribute="rotation" repeat="indefinite" to ="0 360 0"></a-animation>
+      </a-box>
 
       <a-entity position="0 5 20">
       <a-camera></a-camera>
